@@ -24,4 +24,4 @@ jobs:
       - name: Publicar página
         env:
           SURGE_TOKEN: ${{ secrets.SURGE_API_KEY }}
-        run: surge --project ./ --domain overjoyed-trail.surge.sh --token $SURGE_TOKEN
+        run: surge --project ./ --domain overjoyed-trail.surge.sh --token $SURGE_API_KEY
